@@ -4,8 +4,9 @@
 package edu.saintjoe.cs.brianc.appskeleton;
 
 /* App Skeleton
- * Written by Brian Capouch 17 March 2015
+ * Forked from Brian Capouch on 3/18/15
  * This app will serve as the basis for student project apps
+ * Andrew Ribicki 3/18/15 
  */
 
 // Import directives tell Eclipse which components you intend to use
