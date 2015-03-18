@@ -49,7 +49,7 @@ public class SkeletonActivity extends Form implements HandlesEventDispatching {
      line2 = new HorizontalArrangement(this);
      
      // Now create the user interface
-     dumbButton = new Button(line1,"Empujeme");   
+     dumbButton = new Button(line1,"Don't Touch Me");   
      resultLabel = new Label(line2,"");
      
      
@@ -66,7 +66,7 @@ public class SkeletonActivity extends Form implements HandlesEventDispatching {
  	
  	// This code is equivalent to the "Blocks" part of App Inventor
 	    if (component.equals(dumbButton) && eventName.equals("Click")){
-	    	resultLabel.Text("Empujado!!");
+	    	resultLabel.Text("Don't Touch Me");
 	        return true;
 	     } // end dispatch '+' press
 	
