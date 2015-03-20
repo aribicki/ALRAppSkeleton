@@ -71,6 +71,7 @@ public class SkeletonActivity extends Form implements HandlesEventDispatching {
  	// This code is equivalent to the "Blocks" part of App Inventor
 	    if (component.equals(Button) && eventName.equals("Click")){
 	    	resultLabel.Text("HI");
+	    	Button.Text("you pushed me");
 	        return true;
 	     } // end dispatch '+' press
 	    if (component.equals(Button1) && eventName.equals("Click")){
